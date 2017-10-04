@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		288F0DECA681E369D40C47E2 /* Pods_Rukkus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E3C0CC18019BF7CBDBA101 /* Pods_Rukkus.framework */; };
+		50056CAC1F843896000D7B40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50056CAB1F843896000D7B40 /* AppDelegate.swift */; };
+		50056CB11F843896000D7B40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50056CAF1F843896000D7B40 /* Main.storyboard */; };
+		50056CB31F843896000D7B40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50056CB21F843896000D7B40 /* Assets.xcassets */; };
+		50056CB61F843896000D7B40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50056CB41F843896000D7B40 /* LaunchScreen.storyboard */; };
+		50056CBF1F84408B000D7B40 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50056CBE1F84408B000D7B40 /* HomeViewController.swift */; };
+		5054412A1F8588AE00CC369B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505441291F8588AE00CC369B /* DetailsViewController.swift */; };
+		50A04C7F1F84863A0084C98A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A04C7E1F84863A0084C98A /* Default-568h@2x.png */; };
+		50A04C801F84882A0084C98A /* RukkusEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50056CC61F8440C9000D7B40 /* RukkusEvents.swift */; };
+		50A04C811F84882F0084C98A /* RukkusHeadshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50056CC71F8440C9000D7B40 /* RukkusHeadshot.swift */; };
+		50A04C821F84882F0084C98A /* RukkusPerformers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50056CC41F8440C9000D7B40 /* RukkusPerformers.swift */; };
+		50A04C831F84882F0084C98A /* RukkusResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50056CC51F8440C9000D7B40 /* RukkusResults.swift */; };
+		50A04C841F84882F0084C98A /* RukkusVenue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50056CC31F8440C9000D7B40 /* RukkusVenue.swift */; };
+		50EA0AB01F855B1500EE1B8C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EA0AAF1F855B1500EE1B8C /* DataManager.swift */; };
+		50EA0AB61F8577DF00EE1B8C /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EA0AB51F8577DF00EE1B8C /* HomeTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50056CA81F843896000D7B40 /* Rukkus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rukkus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50056CAB1F843896000D7B40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50056CB01F843896000D7B40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50056CB21F843896000D7B40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50056CB51F843896000D7B40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50056CB71F843896000D7B40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50056CBE1F84408B000D7B40 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		50056CC31F8440C9000D7B40 /* RukkusVenue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RukkusVenue.swift; sourceTree = "<group>"; };
+		50056CC41F8440C9000D7B40 /* RukkusPerformers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RukkusPerformers.swift; sourceTree = "<group>"; };
+		50056CC51F8440C9000D7B40 /* RukkusResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RukkusResults.swift; sourceTree = "<group>"; };
+		50056CC61F8440C9000D7B40 /* RukkusEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RukkusEvents.swift; sourceTree = "<group>"; };
+		50056CC71F8440C9000D7B40 /* RukkusHeadshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RukkusHeadshot.swift; sourceTree = "<group>"; };
+		505441291F8588AE00CC369B /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		50A04C7E1F84863A0084C98A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		50EA0AAF1F855B1500EE1B8C /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		50EA0AB21F855E3500EE1B8C /* Rukkus-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rukkus-Bridging-Header.h"; sourceTree = "<group>"; };
+		50EA0AB51F8577DF00EE1B8C /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		69E3C0CC18019BF7CBDBA101 /* Pods_Rukkus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rukkus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B525331090A6C51782E3B7BF /* Pods-Rukkus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rukkus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rukkus/Pods-Rukkus.debug.xcconfig"; sourceTree = "<group>"; };
+		C96C06A74D8BCF1C42EBBA0B /* Pods-Rukkus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rukkus.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rukkus/Pods-Rukkus.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50056CA51F843896000D7B40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288F0DECA681E369D40C47E2 /* Pods_Rukkus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50056C9F1F843896000D7B40 = {
+			isa = PBXGroup;
+			children = (
+				50A04C7E1F84863A0084C98A /* Default-568h@2x.png */,
+				50056CAA1F843896000D7B40 /* Rukkus */,
+				50056CA91F843896000D7B40 /* Products */,
+				E3F817A332DFE3D228296182 /* Pods */,
+				6E0E5BD0F437397DBB02EAA1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50056CA91F843896000D7B40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50056CA81F843896000D7B40 /* Rukkus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50056CAA1F843896000D7B40 /* Rukkus */ = {
+			isa = PBXGroup;
+			children = (
+				50056CB71F843896000D7B40 /* Info.plist */,
+				50056CBD1F844074000D7B40 /* Home */,
+				50056CC21F8440B1000D7B40 /* Assets */,
+				50EA0AB21F855E3500EE1B8C /* Rukkus-Bridging-Header.h */,
+			);
+			path = Rukkus;
+			sourceTree = "<group>";
+		};
+		50056CBD1F844074000D7B40 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				50056CAF1F843896000D7B40 /* Main.storyboard */,
+				50056CC01F844092000D7B40 /* Models */,
+				50056CC11F844098000D7B40 /* ViewControllers */,
+				50EA0AB51F8577DF00EE1B8C /* HomeTableViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		50056CC01F844092000D7B40 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				50056CC61F8440C9000D7B40 /* RukkusEvents.swift */,
+				50056CC71F8440C9000D7B40 /* RukkusHeadshot.swift */,
+				50056CC41F8440C9000D7B40 /* RukkusPerformers.swift */,
+				50056CC51F8440C9000D7B40 /* RukkusResults.swift */,
+				50056CC31F8440C9000D7B40 /* RukkusVenue.swift */,
+				50EA0AAF1F855B1500EE1B8C /* DataManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		50056CC11F844098000D7B40 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				50056CBE1F84408B000D7B40 /* HomeViewController.swift */,
+				505441291F8588AE00CC369B /* DetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		50056CC21F8440B1000D7B40 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				50056CAB1F843896000D7B40 /* AppDelegate.swift */,
+				50056CB21F843896000D7B40 /* Assets.xcassets */,
+				50056CB41F843896000D7B40 /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		6E0E5BD0F437397DBB02EAA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69E3C0CC18019BF7CBDBA101 /* Pods_Rukkus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3F817A332DFE3D228296182 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B525331090A6C51782E3B7BF /* Pods-Rukkus.debug.xcconfig */,
+				C96C06A74D8BCF1C42EBBA0B /* Pods-Rukkus.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50056CA71F843896000D7B40 /* Rukkus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50056CBA1F843896000D7B40 /* Build configuration list for PBXNativeTarget "Rukkus" */;
+			buildPhases = (
+				3CF2F9965C7B1B0B8C6EA214 /* [CP] Check Pods Manifest.lock */,
+				50056CA41F843896000D7B40 /* Sources */,
+				50056CA51F843896000D7B40 /* Frameworks */,
+				50056CA61F843896000D7B40 /* Resources */,
+				8B641D15AC1A884EE0074A40 /* [CP] Embed Pods Frameworks */,
+				46AE14CDE73F1CB7778A42E9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rukkus;
+			productName = Rukkus;
+			productReference = 50056CA81F843896000D7B40 /* Rukkus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50056CA01F843896000D7B40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "abdelrahman mohamed";
+				TargetAttributes = {
+					50056CA71F843896000D7B40 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 50056CA31F843896000D7B40 /* Build configuration list for PBXProject "Rukkus" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50056C9F1F843896000D7B40;
+			productRefGroup = 50056CA91F843896000D7B40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50056CA71F843896000D7B40 /* Rukkus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50056CA61F843896000D7B40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50056CB61F843896000D7B40 /* LaunchScreen.storyboard in Resources */,
+				50A04C7F1F84863A0084C98A /* Default-568h@2x.png in Resources */,
+				50056CB31F843896000D7B40 /* Assets.xcassets in Resources */,
+				50056CB11F843896000D7B40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CF2F9965C7B1B0B8C6EA214 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rukkus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46AE14CDE73F1CB7778A42E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rukkus/Pods-Rukkus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B641D15AC1A884EE0074A40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Rukkus/Pods-Rukkus-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/Marshal/Marshal.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/ReachabilitySwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Marshal.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReachabilitySwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rukkus/Pods-Rukkus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50056CA41F843896000D7B40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A04C811F84882F0084C98A /* RukkusHeadshot.swift in Sources */,
+				50EA0AB01F855B1500EE1B8C /* DataManager.swift in Sources */,
+				50056CAC1F843896000D7B40 /* AppDelegate.swift in Sources */,
+				50056CBF1F84408B000D7B40 /* HomeViewController.swift in Sources */,
+				50A04C831F84882F0084C98A /* RukkusResults.swift in Sources */,
+				50A04C801F84882A0084C98A /* RukkusEvents.swift in Sources */,
+				50EA0AB61F8577DF00EE1B8C /* HomeTableViewCell.swift in Sources */,
+				50A04C841F84882F0084C98A /* RukkusVenue.swift in Sources */,
+				50A04C821F84882F0084C98A /* RukkusPerformers.swift in Sources */,
+				5054412A1F8588AE00CC369B /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50056CAF1F843896000D7B40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50056CB01F843896000D7B40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50056CB41F843896000D7B40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50056CB51F843896000D7B40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50056CB81F843896000D7B40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50056CB91F843896000D7B40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50056CBB1F843896000D7B40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B525331090A6C51782E3B7BF /* Pods-Rukkus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85R85ZNGEX;
+				INFOPLIST_FILE = Rukkus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yoloabdo.inc.Rukkus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rukkus/Rukkus-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		50056CBC1F843896000D7B40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C96C06A74D8BCF1C42EBBA0B /* Pods-Rukkus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85R85ZNGEX;
+				INFOPLIST_FILE = Rukkus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yoloabdo.inc.Rukkus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rukkus/Rukkus-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50056CA31F843896000D7B40 /* Build configuration list for PBXProject "Rukkus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50056CB81F843896000D7B40 /* Debug */,
+				50056CB91F843896000D7B40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50056CBA1F843896000D7B40 /* Build configuration list for PBXNativeTarget "Rukkus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50056CBB1F843896000D7B40 /* Debug */,
+				50056CBC1F843896000D7B40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50056CA01F843896000D7B40 /* Project object */;
+}
